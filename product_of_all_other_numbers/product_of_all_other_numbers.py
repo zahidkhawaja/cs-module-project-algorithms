@@ -3,9 +3,21 @@ Input: a List of integers
 Returns: a List of integers
 '''
 def product_of_all_other_numbers(arr):
-    # Your code here
+    
+    result = []
+    rand = 1
 
-    pass
+    for x in range(0, len(arr)):
+        for y in range(0, len(arr)):
+            if x == y:
+                continue
+
+            rand  = rand * arr[y]
+
+        result.append(rand)
+        rand = 1
+
+    return result
 
 
 if __name__ == '__main__':
