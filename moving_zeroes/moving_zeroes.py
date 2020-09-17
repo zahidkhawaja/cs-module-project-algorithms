@@ -2,6 +2,8 @@
 Input: a List of integers
 Returns: a List of integers
 '''
+# Move non-zero ints to the left. All zeroes should be on the right
+
 def moving_zeroes(arr):
 
     for i in range(len(arr)):
