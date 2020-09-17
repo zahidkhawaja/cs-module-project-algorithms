@@ -3,9 +3,15 @@ Input: a List of integers
 Returns: a List of integers
 '''
 def moving_zeroes(arr):
-    # Your code here
 
-    pass
+    for i in range(len(arr)):
+        x = arr[i]
+
+        if x != 0:
+            # An initial array of "x" and appending slices from arr
+            arr = [x] + arr[:i] + arr[i+1:]
+
+    return arr
 
 
 if __name__ == '__main__':
