@@ -2,6 +2,8 @@
 Input: an integer
 Returns: an integer
 '''
+# Can eat 1, 2, or 3 at a time
+
 def eating_cookies(n):
     
     if n == 0:

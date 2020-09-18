@@ -2,6 +2,8 @@
 Input: a List of integers where every int except one shows up twice
 Returns: an integer
 '''
+# Return the non-duplicate
+
 def single_number(arr):
 
     temp = []

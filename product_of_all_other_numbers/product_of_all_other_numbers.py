@@ -2,6 +2,8 @@
 Input: a List of integers
 Returns: a List of integers
 '''
+# Product of all numbers except the current index
+
 def product_of_all_other_numbers(arr):
     
     result = []
